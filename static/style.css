@@ -1,0 +1,66 @@
+body{
+    background-color: #E3F2C1;
+}
+
+h1, h2{
+    font-family: 'Kanit', sans-serif;
+    color:#1D267D;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+p, button{
+    font-family: 'Kalam', cursive;
+    font-size: 22px;
+    color:#1D267D;
+}
+button{
+    background-color: #4C4C6D;
+    border: None;
+    border-radius: 8px;
+    padding: 10px;
+    color:#E8F6EF;
+    
+}
+button:hover{
+    background-color: #1B6B93;
+    color: white;
+}
+
+.container1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.container2{
+    width: 50%;
+    padding-top: 20px;
+}
+.container3{
+    padding-top: 20px;
+    place-items: center;
+}
+
+#image-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.image1{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+#container5{
+    display: grid;
+    place-items: center;
+}
+.container1 p{
+    width: 50%;
+    text-align: center;
+    display:inline-block;
+}
